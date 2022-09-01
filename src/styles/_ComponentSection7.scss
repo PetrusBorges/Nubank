@@ -1,0 +1,16 @@
+.fignu4-letter-u, .fignu4-letter-n {
+  animation: fig4nu-letter 4s ease infinite alternate;
+}
+
+@keyframes fig4nu-letter {
+  0% {
+    stroke-width: 4;
+    stroke-dasharray: 0 400;
+    stroke-opacity: 1;
+  }
+  60%,100% {
+    stroke-width: 4;
+    stroke-dasharray: 400 0;
+    stroke-opacity: 1;
+  }
+}

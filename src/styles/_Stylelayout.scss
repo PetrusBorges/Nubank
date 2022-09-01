@@ -1,0 +1,187 @@
+//Layout of project
+
+//Container devices
+
+$container-xl: 1440px;
+$container-l: 1140px;
+$container-m: 960px;
+$container-s: 540px;
+
+// Mixins of media queries
+
+@mixin  responsive($device) {
+  
+  @if $device == xl {
+    //for resolution upper than 1440px
+    @media screen and (min-width: $container-xl) {
+      @content;
+    }
+  }
+
+  @else if $device == l {
+    //for resolution between 1140px and 1440px
+    @media screen and (max-width: $container-xl) and (min-width: $container-l) {
+      @content;
+    }
+  }
+
+  @else if $device == m {
+    //for resolution between 960 and 1140px
+    @media screen and (max-width: $container-l) and (min-width: $container-m) {
+      @content;
+    }
+  }
+
+  @else if $device == s {
+    //for resolution less than 960px
+    @media screen and (max-width: $container-m) {
+      @content;
+    }
+  }
+
+  @else if $device == xs {
+    //for resolution less than 540px
+    @media screen and (max-width: $container-s) {
+      @content;
+    }
+  }
+}
+
+//container
+.container {
+  max-width: $container-xl;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  overflow: hidden;
+
+  @include responsive(s) {
+    flex-direction: column;
+    padding: 32px 18px;
+  }
+}
+
+//hero
+.hero {
+  height: 90vh;
+
+  @include responsive(s) {
+    height: auto;
+  }
+}
+
+//relative 
+.relative {
+  position: relative;
+}
+
+//align-items
+.align-items-center {
+  align-items: center;
+}
+
+//hiden
+.hiden {
+  overflow: hidden;
+}
+
+//width-auto
+.w-auto {
+  width: auto;
+}
+
+//width-100
+.w-100 {
+  width: 100%;
+}
+
+//width-75
+.w-75 {
+  width: 75%;
+}
+
+//width-50
+.w-50 {
+  width: 50%;
+}
+
+//width-25
+.w-25 {
+  width: 25%;
+}
+
+//flex
+.flex {
+  display: flex;
+}
+
+//flex-top
+.flex-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+//flex-start
+.flex-start {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+//flex-center
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//flex-spacebetween
+.flex-spacebetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+//flex-column
+.flex-column {
+  flex-direction: column;
+}
+
+//flex-wrap
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+//flex item - 1
+.flex-item-1 {
+  flex: 1 1 360px;
+}
+
+//flex item - 2
+.flex-item-2 {
+  flex: 2 1 360px;
+}
+
+//flex item - 3
+.flex-item-3 {
+  flex: 3 1 360px;
+}
+
+//flex item - 4
+.flex-item-4 {
+  flex: 4 1 360px;
+}
+
+//flex item - 5
+.flex-item-5 {
+  flex: 5 1 360px;
+}
+
+//flex item - auto
+.flex-item-auto {
+  flex: 2 1 auto;
+}

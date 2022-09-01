@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import './Stylecolors';
+@import './Stylelayout';
+@import './Stylespacing';
+@import './Styletypography';
+@import './Stylebuttons-link';
+@import './Styleicons';
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  scroll-behavior: smooth;
+  background-color: $white-dark;
+}
+
+img, svg {
+  display: block;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid red
+}
+
+@import './ComponentHeader';
+@import './ComponentSection1';
+@import './ComponentSection1BG';
+@import './ComponentSection2';
+@import './ComponentSection3';
+@import './ComponentSection4';
+@import './ComponentSection5';
+@import './ComponentSection6';
+@import './ComponentSection7';
+@import './ComponentSection8';
+@import './ComponentSection9';

@@ -1,0 +1,22 @@
+//svg animation <AppNubank/>
+
+.fignu2-icon1 {
+  animation: fignu2-icon-move 3s ease 0s infinite alternate;
+}
+
+.fignu2-icon3 {
+  animation: fignu2-icon-move 3s ease 2s infinite alternate;
+}
+
+.fignu2-icon5 {
+  animation: fignu2-icon-move 3s ease 1s infinite alternate;
+}
+
+@keyframes fignu2-icon-move {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  0% {
+    transform: translate3d(10px, -40px, 0);
+  }
+}

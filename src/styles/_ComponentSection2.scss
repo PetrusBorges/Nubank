@@ -1,0 +1,26 @@
+.list-item {
+    list-style: none;
+    position: relative;
+    padding: 8px 8px 8px 72px;
+    margin-bottom: 48px;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      display: block;
+      width: 40px;
+      height: 40px;
+    }
+  }
+
+  @include responsive(s) {
+
+    .people3 {
+      pointer-events: none;
+      display: none;
+  }
+}
+
+

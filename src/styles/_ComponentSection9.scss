@@ -1,0 +1,28 @@
+footer {
+  background: linear-gradient(220.94deg, #A950C4 14.43%, #82269E 85.28%);
+
+  h4 {
+    font-weight: 300;
+  }
+
+  .list {
+    list-style: none;
+  
+    li {
+      margin-bottom: 12px;
+  
+      a {
+        color: $secondary-light;
+      }
+    }
+  }
+}
+
+.logo-footer {
+  max-width: 96px;
+  cursor: pointer;
+}
+
+.border-top {
+  border-top: 1px solid $secondary-light;
+}
