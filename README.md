@@ -2,9 +2,9 @@
 
 Repositório criado exclusivamente para treinar boas práticas em REACT + NPM/NPX + REACT SASS + REACT SWIPER + REACT AOS adquiridas no curso FrontPUSH.
 
-[Petrus Borges - Spider-Man: Miles Morales](https://spider-man-miles-morales-rho.vercel.app)
+[Petrus Borges - Nubank](https://spider-man-miles-morales-rho.vercel.app)
 
-https://user-images.githubusercontent.com/105453766/185815928-83c34abd-156b-4993-9030-08e585f4b271.mp4
+https://user-images.githubusercontent.com/105453766/187816489-dff4f240-9828-4e14-a023-c3cbc0db4544.mp4
 
 ## 📋 Projeto
 
