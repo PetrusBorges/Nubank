@@ -2,7 +2,7 @@
 
 Repositório criado exclusivamente para treinar boas práticas em REACT + NPM/NPX + REACT SASS + REACT SWIPER + REACT AOS adquiridas no curso FrontPUSH.
 
-[Petrus Borges - Nubank](https://spider-man-miles-morales-rho.vercel.app)
+[Petrus Borges - Nubank](https://nubank-gilt.vercel.app)
 
 https://user-images.githubusercontent.com/105453766/187816647-300f53f9-e978-4738-acac-52badcf7a22d.mp4
 
