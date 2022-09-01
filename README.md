@@ -4,7 +4,7 @@ Repositório criado exclusivamente para treinar boas práticas em REACT + NPM/NP
 
 [Petrus Borges - Nubank](https://spider-man-miles-morales-rho.vercel.app)
 
-https://user-images.githubusercontent.com/105453766/187816489-dff4f240-9828-4e14-a023-c3cbc0db4544.mp4
+https://user-images.githubusercontent.com/105453766/187816647-300f53f9-e978-4738-acac-52badcf7a22d.mp4
 
 ## 📋 Projeto
 
